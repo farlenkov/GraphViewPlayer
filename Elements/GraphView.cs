@@ -666,7 +666,7 @@ namespace GraphViewPlayer
         #endregion
 
         #region Framing
-        protected void Frame()
+        public void Frame()
         {
             // Construct rect for selected and unselected elements
             Rect rectToFitSelected = ContentContainer.layout;
